@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+}
+
+  
+
+#drawing-pad {
+  position: relative;
+  height: 30rem;
+  background-color: whitesmoke;
+}
+
+#black {
+  background-color: black;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
+
+#red {
+  background-color: red;
+}
+#Eraser {
+  background-color: whitesmoke;
+}
+
+.mark {
+  display: block;
+  border-radius: 50%;
+  background-color: black;
+  position: absolute;
+}
+#Small {
+  height: 5px;
+  width: 5px;
+}
+#medium {
+  height: 35px;
+  width: 35px;
+}
+#Large {
+  height: 40px;
+  width: 40px;
+}
+
+.container {
+  display: flex
+  flex-direction: column;
+  flex: 4;
+}
+.addedButtons {
+  flex-direction: row;
+  flex: 1;
+}
